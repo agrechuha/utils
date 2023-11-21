@@ -17,6 +17,6 @@ $ composer require agrechuha/utils
 
 ```php
 <?php
-$urlParser = new UrlParser('https://otus.ru/learning/265134/')
+$urlParser = new UrlParser('https://otus.ru/learning/265134/');
 echo $urlParser->getHost(); // otus.ru
 ```
